@@ -10,6 +10,7 @@ Classes:
     Square
 """
 
+import unittest
 import math
 
 
@@ -118,5 +119,5 @@ class Square(Rectangle):
     return "Square(side=" + str(self.width) + ")"
 
 
-
-
+if __name__ == "__main__":
+  unittest.main(module='test_module', exit=False)
